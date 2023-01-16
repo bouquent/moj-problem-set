@@ -1,4 +1,4 @@
-#cd /opt/server/data/moj_problem_set/
+cd /opt/server/data/moj_problem_set/
 
 IFS=$'\n'
 for zip_file_name in `ls -N1 update`
