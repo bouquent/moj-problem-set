@@ -1,0 +1,13 @@
+#cd /opt/server/data/moj_problem_set/
+
+IFS=$'\n'
+for zip_file_name in `ls -N1 update`
+do
+    if [[ "update/${zip_file_name}" == *.zip ]]
+    then
+        file_md5_value=`md5sum "update/${zip_file_name}" | awk '{print $1}'`
+        #find problem of problem id, replace md5 value if problem exists, else add the problem id value
+        node update_problem_md5.js "${zip_file_name}" "${file_md5_value}"
+        mv "update/${zip_file_name}" problem_data/
+    fi
+done
