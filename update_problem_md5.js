@@ -10,13 +10,14 @@ function Main()
     let fNames = Object.keys(md5_map);
     for (let i in fNames)
     {
+        //modify existing problem
         let fName = fNames[i];
         if (fName == new_file_name) {
             md5_map[fName]['md5']=new_file_md5_value;
             fs.writeFile('md5_list.json', JSON.stringify(md5_map), (err) => {
-                 if(err) {  
-                    console.error(err);
-                     return; 
+                if(err) {  
+                    console.error(err)
+                    return; 
                 } else {
                     console.log('done');
                 } 
