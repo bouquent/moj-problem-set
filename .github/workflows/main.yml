@@ -1,7 +1,12 @@
 stages:
- - build
-  
-jobs:
- stage: build
- script:
-  echo "hello"
+  - build
+
+build:
+  stage: build
+  script:
+    - echo "meizizi"
+    - echo "xixixi"
+  tags:
+    - build
+  only:
+    - master
