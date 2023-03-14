@@ -3,7 +3,7 @@
 GIT_CMD=git
 $GIT_CMD pull 
 
-cd ../problem_data/
+cd /opt/server/data/moj-problem-set/problem_data/
 IFS=$'\n'
 for f_name in `ls -N1`
 do
