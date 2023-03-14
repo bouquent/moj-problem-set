@@ -3,7 +3,7 @@ name: test
 # on 配置项用于配置该仓库的什么分支触发什么事件后进行该 ci 的调用
 on:
   push:
-    branches: master, test_github_ci
+    branches: test_github_ci
 
 jobs:
   build:
