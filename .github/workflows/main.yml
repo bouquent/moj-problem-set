@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: curl http://39.104.62.0:8181/cgi/health_check -v
+        run: curl -v http://39.104.62.0:8181/cgi/update-problemset
