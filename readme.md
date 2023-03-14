@@ -9,7 +9,6 @@
 #### 配置文件 problem.conf  
     样例:  
     n_tests 10          // 标准测试点数目  
-    n_ex_tests 1        // 额外测试点数目  
     n_sample_tests 1    // 样例测试点数目  
     input_pre test       // 输入文件前缀  
     input_suf in        // 输入文件后缀  
@@ -20,7 +19,7 @@
     output_limit 64     // 输出文件大小限制
     use_builtin_judger on   // 是否使用标准的judger, 一般情况都设置为on
     use_builtin_checker ncmp  // 选择你要的checker
-    with_implementer on // 开启核心代码模式
+    with_implementer on // 核心代码模式
 
 
 #### 根据problem.conf里面的配置文件添加输入输出文件  
@@ -35,8 +34,8 @@
     test2.out  
     ...
 
-#### 核心代码模式所需要的文件，单独创建一个requre文件夹，并把文件放在该文件夹下  
-    注意主函数必须放在implementer.c文件中
+#### 核心代码模式所需要的文件，单独创建一个requre文件夹，并把主函数放在该文件夹下  
+    注意主函数命名必须为implementer.c/cpp/java
 
 
 ### 3. 将题目压缩打包成zip文件，文件名为problem_title.zip。
