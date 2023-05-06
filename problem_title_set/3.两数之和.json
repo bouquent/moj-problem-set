@@ -1,0 +1,13 @@
+{
+    "id": "3",
+    "title": "两数之和",
+    "description": "给定一个整数数组 nums 和一个整数目标值 target, 请你在该数组中找出和为目标值的那 两个 整数，并返回它们的数组下标。假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。",
+    "inputFormat": "第一行是一个整数 n, 表示数组长度。接下来一行是 n 个整数，表示数组 nums。第三行是一个整数 target,表示目标值。",
+    "outputFormat": "一行两个整数，表示满足条件的两个数在数组中的下标。",
+    "sampleInput": "4\n2 7 11 15\n9",
+    "sampleOutput": "0 1",
+    "mode": "ACM模式",
+    "hint": "无提示",
+    "difficulty": "easy",
+    "type": ["1"]
+}

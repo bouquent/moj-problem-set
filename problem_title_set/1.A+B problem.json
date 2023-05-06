@@ -1,0 +1,11 @@
+{
+    "id": "1",
+    "title": "A加B问题",
+    "description": "输出A+B的值",
+    "inputformat": "输入两个整数A和B",
+    "outputformat": "输出一个整数C",
+    "sampleinput": "400 500",
+    "sampleoutput": "900",
+    "mode": "ACM模式",
+    "hint": "无提示"
+}
