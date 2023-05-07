@@ -1,0 +1,13 @@
+{
+    "id": "5",
+    "title": "二叉树的最大深度",
+    "description": "给定一个二叉树，找出其最大深度。",
+    "inputFormat": "一行字符串，用来描述二叉树的形态，其中每个数字表示一个节点的值，用’,‘分隔。’#'表示该节点不存在。",
+    "outputFormat": "一个整数，表示最大深度。 ",
+    "sampleInput": "3,9,20,#,#,15,7",
+    "sampleOutput": "3",
+    "mode": "ACM模式",
+    "hint": "无提示",
+    "difficulty": "easy",
+    "type": ["7"]
+}

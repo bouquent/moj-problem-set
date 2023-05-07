@@ -2,12 +2,12 @@
     "id": "4",
     "title": "反转链表",
     "description": "给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。您必须定义自己的链表节点,来完成本题",
-    "inputformat": "链表头节点的值序列，以空格分隔，-1 表示链表结束。",
-    "outputformat": "反转后的链表的值序列，以空格分隔。 ",
-    "sampleinput": "1 2 3 4 5 -1",
-    "sampleoutput": "5 4 3 2 1",
+    "inputFormat": "链表头节点的值序列，以空格分隔，-1 表示链表结束。",
+    "outputFormat": "反转后的链表的值序列，以空格分隔。 ",
+    "sampleInput": "1 2 3 4 5 -1",
+    "sampleOutput": "5 4 3 2 1",
     "mode": "ACM模式",
     "hint": "无提示",
     "difficulty": "easy",
-    "type": []
+    "type": ["6"]
 }

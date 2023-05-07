@@ -7,16 +7,16 @@
 ### 2. 在 problem_data_user 文件夹中加入 json 文件, 文件的格式如下，必须包含所有的字段。使用文件夹下的脚本 update_user_problem_data.sh + json 文件名，将题目信息更新到用户页面。
 
     {
-        "id": "1",
-        "title": "A加B问题",
-        "description": "输出A+B的值",
-        "inputformat": "输入两个整数A和B",
-        "outputformat": "输出一个整数C",
-        "sampleinput": "400 500",
-        "sampleoutput": "900",
+        "id": "2",
+        "title": "第k大的整数",
+        "description": "现有 n 个正整数，要求出这 n 个正整数中的第 k 个最小整数（相同大小的整数只计算一次）。",
+        "inputFormat": "第一行为 n 和 k; 第二行开始为 n 个正整数的值，整数间用空格隔开。",
+        "outputFormat": "第k个最小整数的值；若无解，则输出 NO RESULT",
+        "sampleInput": "5 2\n1 4 1 1 2",
+        "sampleOutput": "2",
         "mode": "ACM模式",
         "hint": "无提示",
-        "difficulty": "easy",
+        "difficulty": "hard",
         "type": ["1", "2", "3"]
     }
 
