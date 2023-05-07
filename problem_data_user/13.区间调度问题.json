@@ -1,0 +1,13 @@
+{
+    "id": "13",
+    "title": "区间调度问题",
+    "description": "给定一个区间列表intervals，求这个区间列表的最大不重叠区间个数。请注意，区间[a,b]（a < b）与区间[c,d]（c < d）重叠当且仅当b>c。",
+    "inputFormat": "第一行为一个整数n，表示区间列表的长度。接下来n行，每行为两个整数，表示一个区间的左右端点。",
+    "outputFormat": "一个整数，表示最大不重叠区间个数。 ",
+    "sampleInput": "3 [[1, 2], [2, 3], [3, 4]] ",
+    "sampleOutput": "3 ",
+    "mode": "ACM模式",
+    "hint": "无提示",
+    "difficulty": "medium",
+    "type": []
+}
