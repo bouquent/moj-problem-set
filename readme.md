@@ -36,7 +36,6 @@
     output_limit 64     // 输出文件大小限制
     use_builtin_judger on   // 是否使用标准的judger, 一般情况都设置为on
     use_builtin_checker ncmp  // 选择你要的checker
-    with_implementer on // 核心代码模式
 
 #### 根据 problem.conf 里面的配置文件添加输入输出文件
 
