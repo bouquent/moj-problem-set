@@ -1,9 +1,9 @@
 {
     "id": "8",
-    "title": "给定两个字符串text1和text2, 返回这两个字符串的最长公共子序列的长度。如果不存在公共子序列, 返回0。",
-    "description": "第一行为一个字符串text1, 第二行为一个字符串text2。字符串长度均不超过1000。 ",
-    "inputFormat": "一个整数, 表示最长公共子序列的长度。 ",
-    "outputFormat": "一个整数, 表示最大和的连续子数组的和。 ",
+    "title": "最长公共子序列",
+    "description": "给定两个字符串text1和text2, 返回这两个字符串的最长公共子序列的长度。如果不存在公共子序列, 返回0。 ",
+    "inputFormat": "第一行为一个字符串text1, 第二行为一个字符串text2。字符串长度均不超过1000。 ",
+    "outputFormat": "一个整数, 表示最长公共子序列的长度。 ",
     "sampleInput": "abcde ace",
     "sampleOutput": "3",
     "mode": "ACM模式",
