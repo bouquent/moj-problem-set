@@ -1,0 +1,13 @@
+{
+    "id": "7",
+    "title": "五张牌，其中大小鬼为癞子，牌面大小为 0。判断这五张牌是否能组成顺子。",
+    "description": "一行五个数字，表示五张牌的牌面值。 ",
+    "inputFormat": "一个布尔值，表示这五张牌是否能组成顺子。 ",
+    "outputFormat": "一个整数, 表示最大和的连续子数组的和。 ",
+    "sampleInput": "1 2 3 4 5",
+    "sampleOutput": "true",
+    "mode": "ACM模式",
+    "hint": "无提示",
+    "difficulty": "easy",
+    "type": ["1"]
+}
