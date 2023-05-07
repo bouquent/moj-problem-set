@@ -7,5 +7,7 @@
     "sampleinput": "400 500",
     "sampleoutput": "900",
     "mode": "ACM模式",
-    "hint": "无提示"
+    "hint": "无提示",
+    "difficulty": "",
+    "type": []
 }

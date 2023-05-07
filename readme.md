@@ -4,7 +4,7 @@
 
 ### 1. 将题目标题加入到 problem_title_set 文件中, 文件名：problem_id+problem_title.md(非必须)
 
-### 2. 将对应信息放在 problem_id+problem_title.json 文件中，文件的格式如下，必须包含所有的字段。使用 update_user_problem_data.sh + json 文件名，将题目信息更新到用户页面。
+### 2. 在 problem_data_user 文件夹中加入 json 文件, 文件的格式如下，必须包含所有的字段。使用文件夹下的脚本 update_user_problem_data.sh + json 文件名，将题目信息更新到用户页面。
 
     {
         "id": "1",

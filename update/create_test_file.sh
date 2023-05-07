@@ -15,7 +15,6 @@ for ((j = 1; j <= ${file_count}; ++j)); do
     # Read the next three lines from the input file
     read input_line_1
     read input_line_2
-    read input_line_3
     input_line_1=${input_line_1#*:}
     input_line_2=${input_line_2#*:}
 
