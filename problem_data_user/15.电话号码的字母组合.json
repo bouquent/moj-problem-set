@@ -1,0 +1,13 @@
+{
+    "id": "15",
+    "title": "电话号码的字母组合",
+    "description": "给定一个仅包含2-9数字的字符串，返回所有它能表示的字母组合。给出数字到字母的映射如下（与电话按键相同）。注意1不对应任何字母。 ",
+    "inputFormat": "一行字符串，表示输入的数字字符串。",
+    "outputFormat": "一行字符串，表示字母组合，各字母组合之间用空格分隔。  ",
+    "sampleInput": "ad ae af bd be bf cd ce cf",
+    "sampleOutput": "4",
+    "mode": "ACM模式",
+    "hint": "无提示",
+    "difficulty": "medium",
+    "type": ["2", "4"]
+}

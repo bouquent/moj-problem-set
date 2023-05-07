@@ -1,10 +1,10 @@
-输入1:4 5 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 0 0 1 0 
-输出1:4
-输入2:3 3 1 1 1 1 1 1 1 1 1 
-输出2:9
-输入3:5 5 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 
-输出3:9
-输入4:4 4 0 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 
-输出4:4
-输入5:5 5 1 1 1 0 0 1 1 1 0 0 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 
-输出5:9
+输入1:23 
+输出1:ad ae af bd be bf cd ce cf
+输入2:234 
+输出2:adg adh adi aeg aeh aei afg afh afi bdg bdh bdi beg beh bei bfg bfh bfi cdg cdh cdi ceg ceh cei cfg cfh cfi
+输入3:26 
+输出3:am ao ap bm bo bp cm co cp
+输入4:89 
+输出4:twx twy twz uwx uwy uwz vwx vwy vwz
+输入5:2345 
+输出5:adgj adgk adgl adhj adhk adhl adij adik adil aegj aegk aegl aehj aehk aehl aeij aeik aeil afgj afgk afgl afhj afhk afhl afij afik afil bdgj bdgk bdgl bdhj bdhk bdhl bdij bdik bdil begj begk begl behj behk behl beij beik beil bfgj bfgk bfgl bfhj bfhk bfhl bfij bfik bfil cdgj cdgk cdgl cdhj cdhk cdhl cdij cdik cdil cegj cegk cegl cehj cehk cehl ceij ceik ceil cfgj cfgk cfgl cfhj cfhk cfhl cfij cfik cfil
