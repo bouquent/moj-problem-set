@@ -1,0 +1,13 @@
+{
+    "id": "12",
+    "title": "买卖股票的最佳时机",
+    "description": "给定一个数组prices，其中prices[i]是一支给定股票第i天的价格。你只允许完成一笔交易（即买入并卖出一支股票一次），请计算可以获取的最大利润。",
+    "inputFormat": "第一行为一个整数n，表示数组的长度。接下来一行为n个整数，表示数组 prices。",
+    "outputFormat": "一个整数，表示最大利润。",
+    "sampleInput": "6 7 1 5 3 6 4",
+    "sampleOutput": "5",
+    "mode": "ACM模式",
+    "hint": "无提示",
+    "difficulty": "easy",
+    "type": ["1", "3"]
+}
